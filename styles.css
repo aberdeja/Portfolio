@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: #eee;
+  background-color: #8ea1ae;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: right;
+  justify-content: right;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  background-color: #27363f;
+}
+
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: #eee;
+}
+
+nav a[aria-current='page'] {
+  color: #eee;
+  background-color: ;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+main > p {
+  width: 500px;
+}
+
+footer {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  background-color: #27363f;
+  text-decoration: none;
+  color: #eee;
+
+}
