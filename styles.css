@@ -38,11 +38,13 @@ main {
 }
 
 h1 {
+  justify-content: center;
   font-weight: bold;
   font-size: 5rem;
 }
 
 main > p {
+  justify-content: center;
   width: 500px;
 }
 
@@ -115,6 +117,7 @@ table {
 }
 
 th, td {
+  justify-content: center;
   text-align: left;
   border: 1px solid #27363f;
   padding: 5px;
@@ -125,6 +128,7 @@ main > p {
 }
 
 .box {
+  justify-content: center;
   margin: 3px;
   background: #27363f;
   color: white;
